@@ -11,5 +11,5 @@ document.getElementById('proxyForm').addEventListener('submit', function(event) 
 
     // Load the website in the iframe
     const iframe = document.getElementById('proxyFrame');
-    iframe.src = url;
+    iframe.src = 'https://example.com';
 });
